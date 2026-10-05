@@ -1,0 +1,388 @@
+import type { Project } from "./project.types";
+
+export const gamingProjects: Project[] = [
+  {
+    slug: "anarchia",
+    name: "Anarchia.gg",
+    url: "https://anarchia.gg/",
+    category: "Minecraft / Społeczność",
+    format: "Strona serwera i sklep",
+    tagline: "Świat serwera w jednym miejscu.",
+    overviewTitle: "Wyrazisty charakter. Czytelny wybór.",
+    overview:
+      "Anarchia.gg łączy informacje o serwerze Minecraft, dostęp do społeczności i ofertę sklepu. Pixelowa typografia i kolorowe bloki nadają stronie rozpoznawalny charakter, a najważniejsze działania — skopiowanie IP, wejście na Discord i wybór trybu — są dostępne od razu. Odpowiadałem za projekt UI i wdrożenie frontendu.",
+    challenge:
+      "Zmieścić informacje o serwerze, odnośniki społecznościowe i ofertę w jednym interfejsie, zachowując wyrazisty gamingowy charakter oraz prostą nawigację.",
+    solution:
+      "Duże, kontrastowe kafle rozdzielają główne działania. Sklep zaczyna się od wyboru trybu, a zakładki produktów porządkują ofertę. Jasne tło równoważy intensywne kolory i pixelowe ilustracje.",
+    scope: [
+      "Projekt UI i wdrożenie frontendu",
+      "Prezentacja serwera i główna nawigacja",
+      "Widoki wyboru trybu oraz oferty sklepu",
+      "Odnośniki do społeczności i przydatnych informacji",
+    ],
+    tags: ["Minecraft", "UI / Frontend"],
+    year: "",
+    role: "UI/UX + frontend development",
+    technologies: [],
+    background: "#24252b",
+    image: "/images/anarchia-home.webp",
+    width: 1280,
+    height: 720,
+    alt: "Strona Anarchia.gg z żółtym panelem serwera i kolorowymi kaflami nawigacji",
+    description:
+      "Anarchia.gg — Świat serwera w jednym miejscu. Anarchia.gg łączy informacje o serwerze Minecraft, dostęp do społeczności i ofertę sklepu.",
+    gallery: [
+      {
+        src: "/images/anarchia-home.webp",
+        alt: "Strona Anarchia.gg z żółtym panelem serwera i kolorowymi kaflami nawigacji",
+        caption: "Serwer, społeczność i oferta w jednym widoku",
+        width: 1280,
+        height: 720,
+      },
+      {
+        src: "/images/anarchia-detail.webp",
+        alt: "Wybór trybu Anarchia SMP, BoxPvP i OneBlock w sklepie Anarchia.gg",
+        caption: "Sklep — pierwszy krok to wybór trybu",
+        width: 1440,
+        height: 960,
+      },
+    ],
+  },
+  {
+    slug: "craftcube",
+    name: "CraftCube",
+    url: "https://craftcube.pl/",
+    category: "Minecraft / Item shop",
+    format: "Strona serwera i sklep",
+    tagline: "Prosty wybór. Wyrazisty świat.",
+    overviewTitle: "Oferta bez zbędnych kroków.",
+    overview:
+      "CraftCube prezentuje ofertę doładowań portfela gracza w oprawie czerni i złota. Ilustracja postaci buduje klimat serwera, a siatka pakietów pokazuje dostępne wartości i bonusy. Osobny widok pozwala odnaleźć formularz wykorzystania vouchera. Odpowiadałem za projekt UI i wdrożenie frontendu.",
+    challenge:
+      "Połączyć mocną oprawę gamingową z czytelną prezentacją pakietów. Gracz powinien szybko porównać wartości doładowań i zobaczyć, jaki bonus wiąże się z daną opcją.",
+    solution:
+      "Karty pakietów mają spójny układ i wyraźne wartości, a złoty akcent wskazuje główne działania. Nawigacja prowadzi bezpośrednio do oferty, vouchera i regulaminu; formularz vouchera pozostaje prosty i skupiony na zadaniu.",
+    scope: [
+      "Projekt UI i wdrożenie frontendu",
+      "Strona główna i prezentacja pakietów",
+      "Interfejs doładowania portfela gracza",
+      "Widok formularza vouchera",
+    ],
+    tags: ["Minecraft", "UI / Frontend"],
+    year: "",
+    role: "UI/UX + frontend development",
+    technologies: [],
+    background: "#24252b",
+    image: "/images/craftcube-home.webp",
+    width: 1440,
+    height: 960,
+    alt: "Czarno-złota strona CraftCube z ilustracją postaci i pakietami vPLN",
+    description:
+      "CraftCube — Prosty wybór. Wyrazisty świat. CraftCube prezentuje ofertę doładowań portfela gracza w oprawie czerni i złota.",
+    gallery: [
+      {
+        src: "/images/craftcube-home.webp",
+        alt: "Czarno-złota strona CraftCube z ilustracją postaci i pakietami vPLN",
+        caption: "Czerń, złoto i przejrzysta siatka pakietów",
+        width: 1440,
+        height: 960,
+      },
+      {
+        src: "/images/craftcube-detail.webp",
+        alt: "Formularz vouchera CraftCube w ciemnym interfejsie",
+        caption: "Voucher — osobny widok skupiony na zadaniu",
+        width: 1440,
+        height: 960,
+      },
+    ],
+  },
+  {
+    slug: "finerpg",
+    name: "FineRPG",
+    url: "https://finerpg.pl/",
+    category: "Minecraft / MMORPG",
+    format: "Strona serwera MMORPG",
+    tagline: "Oprawa dla świata MMORPG.",
+    overviewTitle: "Klimat gry od pierwszego ekranu.",
+    overview:
+      "FineRPG przedstawia serwer MMORPG z własnym światem i rozbudowaną ofertą dla graczy. Ciemny las, ilustracja bohatera i czerwone akcenty tworzą atmosferę przygody. Z ekranu startowego można przejść do informacji o serwerze, wiki oraz oferty waluty i przedmiotów. Odpowiadałem za projekt UI i wdrożenie frontendu.",
+    challenge:
+      "Zachować klimat świata RPG i jednocześnie czytelnie przedstawić ofertę. Duże ilustracje oraz ciemna paleta powinny wspierać treść, zamiast utrudniać znalezienie kolejnego kroku.",
+    solution:
+      "Pierwszy ekran buduje atmosferę, a dalsze sekcje przechodzą do konkretnych działań. Wybór waluty jest przedstawiony za pomocą suwaka, a karty rang i przedmiotów porządkują ofertę. Czerwony akcent łączy wszystkie najważniejsze przyciski.",
+    scope: [
+      "Projekt UI i wdrożenie frontendu",
+      "Strona główna serwera MMORPG",
+      "Prezentacja waluty, rang i przedmiotów",
+      "Odnośniki do wiki oraz społeczności",
+    ],
+    tags: ["MMORPG", "UI / Frontend"],
+    year: "",
+    role: "UI/UX + frontend development",
+    technologies: [],
+    background: "#24252b",
+    image: "/images/finerpg-home.webp",
+    width: 1435,
+    height: 957,
+    alt: "FineRPG z bohaterem w koronie na tle ciemnego lasu i czerwonymi przyciskami",
+    description:
+      "FineRPG — Oprawa dla świata MMORPG. FineRPG przedstawia serwer MMORPG z własnym światem i rozbudowaną ofertą dla graczy.",
+    gallery: [
+      {
+        src: "/images/finerpg-home.webp",
+        alt: "FineRPG z bohaterem w koronie na tle ciemnego lasu i czerwonymi przyciskami",
+        caption: "Pierwszy ekran — wejście do świata FineRPG",
+        width: 1435,
+        height: 957,
+      },
+      {
+        src: "/images/finerpg-detail.webp",
+        alt: "Oferta FineRPG z wyborem waluty za pomocą suwaka i kartami produktów",
+        caption: "Podgląd koszyka",
+        width: 1435,
+        height: 957,
+      },
+    ],
+  },
+  {
+    slug: "unimc",
+    name: "UniMC",
+    url: "https://www.unimc.pl/",
+    category: "Minecraft / Społeczność",
+    format: "Strona serwera i sklep",
+    tagline: "Imperium gry zaczyna się tutaj.",
+    overviewTitle: "Mocny pierwszy ekran. Jasna nawigacja.",
+    overview:
+      "UniMC łączy prezentację serwera Minecraft z treściami społeczności i sklepem podzielonym na tryby. Granatowe tło, turkusowe akcenty oraz duża ilustracja postaci nadają stronie charakter. Najważniejsze odnośniki — IP, Discord i sklep — znajdują się na pierwszym ekranie. Odpowiadałem za projekt UI i wdrożenie frontendu.",
+    challenge:
+      "Zbudować mocny wizualnie punkt wejścia, który nadal jasno prowadzi do serwera i sklepu. Treści społecznościowe oraz informacje o ekipie powinny uzupełniać tę ścieżkę.",
+    solution:
+      "Centralny nagłówek i ilustracja tworzą wyrazisty pierwszy ekran. Dalsze sekcje pokazują materiały społeczności i administrację, a sklep zaczyna się od dwóch czytelnych kart trybów, z dodatkowymi odnośnikami do vouchera oraz nagrody dziennej.",
+    scope: [
+      "Projekt UI i wdrożenie frontendu",
+      "Strona główna i odnośniki dla gracza",
+      "Prezentacja społeczności oraz administracji",
+      "Widok wyboru trybu w sklepie",
+    ],
+    tags: ["Minecraft", "UI / Frontend"],
+    year: "",
+    role: "UI/UX + frontend development",
+    technologies: [],
+    background: "#24252b",
+    image: "/images/unimc-home.webp",
+    width: 1440,
+    height: 960,
+    alt: "Granatowa strona UniMC z turkusową ilustracją postaci i głównymi przyciskami",
+    description:
+      "UniMC — Imperium gry zaczyna się tutaj. UniMC łączy prezentację serwera Minecraft z treściami społeczności i sklepem podzielonym na tryby.",
+    gallery: [
+      {
+        src: "/images/unimc-home.webp",
+        alt: "Granatowa strona UniMC z turkusową ilustracją postaci i głównymi przyciskami",
+        caption: "Pierwszy ekran — tożsamość serwera i główne działania",
+        width: 1440,
+        height: 960,
+      },
+      {
+        src: "/images/unimc-detail.webp",
+        alt: "Sklep UniMC z kartami trybów Anarchia FFA i Anarchia Box",
+        caption: "Sklep — dwie wyraźne ścieżki dla gracza",
+        width: 1440,
+        height: 960,
+      },
+    ],
+  },
+  {
+    slug: "goodplay",
+    name: "GoodPlay",
+    url: "https://goodplay.pl/",
+    category: "Minecraft / Item shop",
+    format: "Strona serwera i sklep",
+    tagline: "Przygoda z jasnym początkiem.",
+    overviewTitle: "Przyjazna oprawa dla graczy.",
+    overview:
+      "GoodPlay wyróżnia się jasną, ciepłą kolorystyką i ilustracjami postaci Minecraft. Strona prowadzi od informacji o serwerze do oferty doładowań, pokazując wartość pakietu, cenę oraz bonus. Całość uzupełnia zaproszenie do społeczności na Discordzie. Odpowiadałem za projekt UI i wdrożenie frontendu.",
+    challenge:
+      "Przedstawić wiele wariantów doładowań w sposób łatwy do porównania, a przy tym utrzymać lekki i przyjazny charakter serwera.",
+    solution:
+      "Jasne tło zostawia przestrzeń ilustracjom i treści. Powtarzalny układ kart eksponuje wartość pakietu oraz bonusy, a żółte akcenty wskazują działania. Sekcja społeczności zamyka stronę czytelnym zaproszeniem do Discorda.",
+    scope: [
+      "Projekt UI i wdrożenie frontendu",
+      "Strona główna serwera",
+      "Katalog pakietów doładowań",
+      "Sekcja społeczności i przydatne odnośniki",
+    ],
+    tags: ["Minecraft", "UI / Frontend"],
+    year: "",
+    role: "UI/UX + frontend development",
+    technologies: [],
+    background: "#24252b",
+    image: "/images/goodplay-home.webp",
+    width: 1435,
+    height: 957,
+    alt: "Jasna strona GoodPlay z ilustracją postaci Minecraft i złotymi akcentami",
+    description:
+      "GoodPlay — Przygoda z jasnym początkiem. GoodPlay wyróżnia się jasną, ciepłą kolorystyką i ilustracjami postaci Minecraft.",
+    gallery: [
+      {
+        src: "/images/goodplay-home.webp",
+        alt: "Jasna strona GoodPlay z ilustracją postaci Minecraft i złotymi akcentami",
+        caption: "Jasny pierwszy ekran z charakterem serwera",
+        width: 1435,
+        height: 957,
+      },
+      {
+        src: "/images/goodplay-detail.webp",
+        alt: "Siatka pakietów doładowań GoodPlay z cenami i informacjami o bonusach",
+        caption: "Pakiety — wartość i bonus w jednym miejscu",
+        width: 1435,
+        height: 957,
+      },
+    ],
+  },
+  {
+    slug: "pykmc",
+    name: "PykMC",
+    url: "https://pykmc.pl/",
+    category: "Minecraft / Tryby gry",
+    format: "Strona serwera Minecraft",
+    tagline: "Kwadratowy świat. Kilka dróg do gry.",
+    overviewTitle: "Każdy tryb ma swój charakter.",
+    overview:
+      "PykMC prezentuje serwer przez materiał wideo, odnośniki społecznościowe i ilustracje trybów gry. Entropia, Skyblock i KitPvP otrzymały osobne karty, dzięki którym łatwo poznać dostępne kierunki rozgrywki. Jasny układ łączy fioletowe i żółte akcenty marki. Odpowiadałem za wdrożenie frontendu.",
+    challenge:
+      "Pokazać różne tryby w jednym spójnym interfejsie. Materiał wideo i ilustracje powinny budować atmosferę, a IP serwera oraz Discord pozostawać łatwo dostępne.",
+    solution:
+      "Po sekcji wideo pojawiają się trzy proste kafle: media społecznościowe, adres serwera i Discord. Poniżej karty trybów łączą krótkie opisy z odrębnymi ilustracjami, zachowując wspólną formę.",
+    scope: [
+      "Wdrożenie frontendu",
+      "Strona główna z prezentacją wideo",
+      "Karty trybów Entropia, Skyblock i KitPvP",
+      "Odnośniki społecznościowe oraz adres serwera",
+    ],
+    tags: ["Minecraft", "Frontend"],
+    year: "",
+    role: "Frontend development",
+    technologies: [],
+    background: "#24252b",
+    image: "/images/pykmc-home.webp",
+    width: 1436,
+    height: 957,
+    alt: "Strona PykMC z logo serwera, materiałem wideo i żółtymi akcentami",
+    description:
+      "PykMC — Kwadratowy świat. Kilka dróg do gry. PykMC prezentuje serwer przez materiał wideo, odnośniki społecznościowe i ilustracje trybów gry.",
+    gallery: [
+      {
+        src: "/images/pykmc-home.webp",
+        alt: "Strona PykMC z logo serwera, materiałem wideo i żółtymi akcentami",
+        caption: "Wideo i identyfikacja serwera na pierwszym ekranie",
+        width: 1436,
+        height: 957,
+      },
+      {
+        src: "/images/pykmc-detail.webp",
+        alt: "Karty trybów Entropia, Skyblock i KitPvP oraz odnośniki do społeczności PykMC",
+        caption: "Tryby gry — krótkie opisy i dedykowane ilustracje",
+        width: 1436,
+        height: 957,
+      },
+    ],
+  },
+  {
+    slug: "clearmc",
+    name: "ClearMC",
+    url: "https://clearmc.pl/",
+    category: "Minecraft / Portfel gracza",
+    format: "Strona serwera i sklep",
+    tagline: "Doładowanie w kilku prostych krokach.",
+    overviewTitle: "Najważniejsze działania pod ręką.",
+    overview:
+      "ClearMC łączy prezentację serwera Minecraft z widokiem doładowania portfela. Jasnoszare tło, fioletowe akcenty i postacie graczy tworzą spokojną oprawę. Formularz porządkuje wybór kwoty, dane gracza i dostępne metody płatności w jednym miejscu. Odpowiadałem za projekt UI i wdrożenie frontendu.",
+    challenge:
+      "Czytelnie połączyć informacyjną część strony z rozbudowanym formularzem. Kwota doładowania, dane gracza oraz wybór metody płatności powinny mieć jasną kolejność.",
+    solution:
+      "Pierwszy ekran skupia się na adresie serwera i społeczności. Widok doładowania używa wyraźnych etykiet, suwaka kwoty i pogrupowanych opcji. Sekcje aktywności graczy oraz rankingu uzupełniają stronę bez przerywania głównej ścieżki.",
+    scope: [
+      "Projekt UI i wdrożenie frontendu",
+      "Strona główna i prezentacja serwera",
+      "Interfejs formularza doładowania",
+      "Prezentacja aktywności oraz rankingu graczy",
+    ],
+    tags: ["Minecraft", "UI / Frontend"],
+    year: "",
+    role: "UI/UX + frontend development",
+    technologies: [],
+    background: "#24252b",
+    image: "/images/clearmc-home.webp",
+    width: 1440,
+    height: 960,
+    alt: "Jasna strona ClearMC z dwiema postaciami Minecraft i fioletowym logo",
+    description:
+      "ClearMC — Doładowanie w kilku prostych krokach. ClearMC łączy prezentację serwera Minecraft z widokiem doładowania portfela.",
+    gallery: [
+      {
+        src: "/images/clearmc-home.webp",
+        alt: "Jasna strona ClearMC z dwiema postaciami Minecraft i fioletowym logo",
+        caption: "Serwer i społeczność — czytelny punkt wejścia",
+        width: 1440,
+        height: 960,
+      },
+      {
+        src: "/images/clearmc-detail.webp",
+        alt: "Formularz doładowania ClearMC z suwakiem kwoty, polami danych i metodami płatności",
+        caption: "Doładowanie — uporządkowany formularz w jednym widoku",
+        width: 1440,
+        height: 960,
+      },
+    ],
+  },
+  {
+    slug: "banansmp",
+    name: "BananSMP",
+    url: "https://banansmp.pl/",
+    category: "Minecraft / Item shop",
+    format: "Strona serwera i sklep",
+    tagline: "Bananowy charakter. Prosta nawigacja.",
+    overviewTitle: "Marka widoczna w każdym detalu.",
+    overview:
+      "BananSMP buduje rozpoznawalną oprawę wokół żółtej palety, pixelowej typografii i bananowych maskotek. Strona prowadzi do serwera, społeczności oraz sklepu, którego oferta została podzielona na polecane produkty, rangi i klucze. Odpowiadałem za projekt UI i wdrożenie frontendu.",
+    challenge:
+      "Zachować zabawny i wyrazisty charakter marki, a jednocześnie łatwo porządkować ofertę oraz informacje o serwerze.",
+    solution:
+      "Duże nagłówki i żółte przyciski tworzą spójny język wizualny. Karty produktów mają wspólną strukturę, a zakładki pozwalają przełączać kategorie. Sekcje Discorda, zmian i zasad domykają informacje potrzebne graczowi.",
+    scope: [
+      "Projekt UI i wdrożenie frontendu",
+      "Strona główna i komunikacja marki",
+      "Widoki kategorii oraz kart produktów",
+      "Sekcje społeczności i informacji o serwerze",
+    ],
+    tags: ["Minecraft", "UI / Frontend"],
+    year: "",
+    role: "UI/UX + frontend development",
+    technologies: [],
+    background: "#24252b",
+    image: "/images/banansmp-home.webp",
+    width: 1440,
+    height: 960,
+    alt: "Żółta pixelowa strona BananSMP z bananowymi maskotkami i głównymi przyciskami",
+    description:
+      "BananSMP — Bananowy charakter. Prosta nawigacja. BananSMP buduje rozpoznawalną oprawę wokół żółtej palety, pixelowej typografii i bananowych maskotek.",
+    gallery: [
+      {
+        src: "/images/banansmp-home.webp",
+        alt: "Żółta pixelowa strona BananSMP z bananowymi maskotkami i głównymi przyciskami",
+        caption: "Pixelowa oprawa i bananowe maskotki",
+        width: 1440,
+        height: 960,
+      },
+      {
+        src: "/images/banansmp-detail.webp",
+        alt: "Sklep BananSMP z żółtymi kartami produktów i zakładkami kategorii",
+        caption: "Sklep — kategorie i spójne karty produktów",
+        width: 1440,
+        height: 960,
+      },
+    ],
+  },
+];
